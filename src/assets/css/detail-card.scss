@@ -1,0 +1,49 @@
+.detail-card {
+  margin: 1rem;
+}
+
+.detail-card__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: "1rem";
+}
+
+.detail-card__content {
+  margin-top: 1rem;
+  max-height: 100%;
+
+  border: 1px solid #1e2d3d;
+  border-radius: 8px;
+
+  & > img {
+    width: 100%;
+    max-height: 10rem;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: #1e2d3d;
+  }
+}
+
+.detail-card__content-data {
+  padding: 1rem;
+  background: #011221;
+  margin: 1rem;
+  border-radius: 8px;
+  border: 1px solid #1e2d3d;
+  color: red;
+
+  .div {
+    text-transform: uppercase;
+  }
+}
+
+.detail-card__content-text {
+  color: white;
+}
+
+.detail-card__content-section {
+  overflow: scroll;
+  max-height: calc(100vh - 25rem);
+}

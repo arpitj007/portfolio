@@ -1,0 +1,51 @@
+.home-container {
+  margin-top: 5vh;
+  display: flex;
+  overflow: scroll;
+  padding: 0 1rem;
+  z-index: 10;
+  background: url(../svg/green.svg) no-repeat, url(../svg/blue.svg) no-repeat;
+  background-size: 100% 100%;
+  height: 100%;
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+    flex-direction: column;
+    margin-top: 0 !important;
+  }
+}
+
+.info-section {
+  padding-left: 1vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 4rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+
+    & > h2 {
+      margin-top: 1rem !important;
+      margin-bottom: 2rem !important;
+    }
+
+    & > h3 {
+      margin-bottom: 1rem !important;
+    }
+
+    & > .medium-heading {
+      font-size: 1.4rem !important;
+    }
+  }
+}
+
+.mobile-github-link {
+  margin-top: 15rem;
+}
+
+.game-section {
+  width: 100%;
+}

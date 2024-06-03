@@ -1,0 +1,205 @@
+.project-description__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.5px;
+  margin-top: 5rem;
+
+  .project-description__title {
+    font-size: 1.5rem;
+    margin: 0 !important;
+  }
+  .project-description__text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+}
+
+.project-description__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+  border: 1px solid #1e2d3d;
+  border-radius: 12px;
+  background: #011221;
+
+  .project-description__image {
+    width: 100%;
+    max-height: 10rem;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #1e2d3d;
+  }
+}
+
+.project-description__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+
+  & > .project-description__text--title {
+    color: white;
+  }
+
+  & > .project-description__text--description {
+    word-wrap: none;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #607b96;
+  }
+}
+
+.box {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem 1rem;
+  background: #011221;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+// Projects Page
+
+.projects-container {
+  height: 100%;
+  text-align: center;
+  color: white;
+  overflow: scroll;
+  width: 100%;
+  padding: 2rem;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.projects-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "project";
+  }
+}
+
+.project-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #011221;
+  padding: 1rem;
+  border: none;
+  max-width: 100%;
+  border: 1px solid #1e2d3d;
+  border-radius: 20px;
+  .project-banner {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 60%;
+  }
+
+  .project-one-liner {
+    color: #607b96;
+  }
+
+  .project-tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .project-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+
+    .project-stat {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid #1e2d3d;
+      border-radius: 12px;
+      background: #011221;
+      margin: 0 0.5rem;
+
+      .project-stat-value {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #43d9ad;
+      }
+
+      .project-stat-label {
+        font-size: 0.8rem;
+        font-weight: 300;
+      }
+    }
+  }
+  .project-client-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #1e2d3d;
+    border-radius: 12px;
+    background: #011221;
+    margin: 1rem 0;
+
+    .project-client-name {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #43d9ad;
+    }
+
+    .project-client-company {
+      font-size: 0.8rem;
+      font-weight: 300;
+    }
+  }
+  .project-mini-description {
+    font-weight: 300;
+    color: #607b96;
+    text-align: justify;
+    text-justify: newspaper;
+  }
+}

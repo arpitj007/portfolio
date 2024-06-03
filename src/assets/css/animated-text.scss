@@ -1,0 +1,48 @@
+svg {
+  font: 10.5em "Fira Code";
+  width: 100%;
+  height: 100vh;
+}
+
+.animated-content {
+  text-align: center;
+}
+
+.animated-text {
+  fill: none;
+  stroke-dasharray: 8% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 1%;
+  animation: stroke-offset 5.5s infinite linear;
+}
+
+.animated-text:nth-child(1) {
+  stroke: #9af3b5;
+  animation-delay: -1;
+}
+
+.animated-text:nth-child(2) {
+  stroke: #38ad82;
+  animation-delay: -2s;
+}
+
+.animated-text:nth-child(3) {
+  stroke: #e9bf71;
+  animation-delay: -3s;
+}
+
+.animated-text:nth-child(4) {
+  stroke: #d275c9;
+  animation-delay: -4s;
+}
+
+.animated-text:nth-child(5) {
+  stroke: #ecd362;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
