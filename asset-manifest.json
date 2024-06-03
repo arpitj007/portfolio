@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6a1a13da.css",
-    "main.js": "/static/js/main.285a6bb3.js",
-    "static/media/porter-banner.png": "/static/media/porter-banner.eea3f7858daa02d13e9b.png",
-    "static/media/juice-banner.png": "/static/media/juice-banner.c2ea721c4c8f7566f4d4.png",
-    "static/media/snacks-banner.png": "/static/media/snacks-banner.29df11ab5d7757857e62.png",
-    "static/media/pepsico.jpeg": "/static/media/pepsico.96d7502adfdb7e6985e5.jpeg",
-    "static/media/helios.png": "/static/media/helios.13eff924d10847deb0e8.png",
-    "static/media/prepleaf-banner.png": "/static/media/prepleaf-banner.6c97ed2a66e1922f9a24.png",
-    "static/media/quloi-banner.png": "/static/media/quloi-banner.dd2902679a0c90affd58.png",
-    "static/media/portfolio-builder.jpeg": "/static/media/portfolio-builder.5b8629d869fc9fc59a0b.jpeg",
-    "static/media/tc-banner.png": "/static/media/tc-banner.8f393b021beec3b4a145.png",
-    "static/media/prepleaf.png": "/static/media/prepleaf.b0010bb5e732efdad95c.png",
-    "static/media/porter-logo-blackbg.png": "/static/media/porter-logo-blackbg.7c96eb843d35813afaf2.png",
-    "index.html": "/index.html",
-    "static/media/bolt-up-left.svg": "/static/media/bolt-up-left.5f06e895ed8a78cbee8b2fa2475c3796.svg",
-    "static/media/blue.svg": "/static/media/blue.b7ce5049394544648b99.svg",
-    "static/media/green.svg": "/static/media/green.cdc98dbe2b20d64b93bc.svg",
-    "main.6a1a13da.css.map": "/static/css/main.6a1a13da.css.map",
-    "main.285a6bb3.js.map": "/static/js/main.285a6bb3.js.map"
+    "main.css": "/portfolio/static/css/main.455ff7f5.css",
+    "main.js": "/portfolio/static/js/main.cceaaaca.js",
+    "static/media/porter-banner.png": "/portfolio/static/media/porter-banner.eea3f7858daa02d13e9b.png",
+    "static/media/juice-banner.png": "/portfolio/static/media/juice-banner.c2ea721c4c8f7566f4d4.png",
+    "static/media/snacks-banner.png": "/portfolio/static/media/snacks-banner.29df11ab5d7757857e62.png",
+    "static/media/pepsico.jpeg": "/portfolio/static/media/pepsico.96d7502adfdb7e6985e5.jpeg",
+    "static/media/helios.png": "/portfolio/static/media/helios.13eff924d10847deb0e8.png",
+    "static/media/prepleaf-banner.png": "/portfolio/static/media/prepleaf-banner.6c97ed2a66e1922f9a24.png",
+    "static/media/quloi-banner.png": "/portfolio/static/media/quloi-banner.dd2902679a0c90affd58.png",
+    "static/media/portfolio-builder.jpeg": "/portfolio/static/media/portfolio-builder.5b8629d869fc9fc59a0b.jpeg",
+    "static/media/tc-banner.png": "/portfolio/static/media/tc-banner.8f393b021beec3b4a145.png",
+    "static/media/prepleaf.png": "/portfolio/static/media/prepleaf.b0010bb5e732efdad95c.png",
+    "static/media/porter-logo-blackbg.png": "/portfolio/static/media/porter-logo-blackbg.7c96eb843d35813afaf2.png",
+    "index.html": "/portfolio/index.html",
+    "static/media/bolt-up-left.svg": "/portfolio/static/media/bolt-up-left.5f06e895ed8a78cbee8b2fa2475c3796.svg",
+    "static/media/blue.svg": "/portfolio/static/media/blue.b7ce5049394544648b99.svg",
+    "static/media/green.svg": "/portfolio/static/media/green.cdc98dbe2b20d64b93bc.svg",
+    "main.455ff7f5.css.map": "/portfolio/static/css/main.455ff7f5.css.map",
+    "main.cceaaaca.js.map": "/portfolio/static/js/main.cceaaaca.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a1a13da.css",
-    "static/js/main.285a6bb3.js"
+    "static/css/main.455ff7f5.css",
+    "static/js/main.cceaaaca.js"
   ]
 }
